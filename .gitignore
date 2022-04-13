@@ -3,3 +3,21 @@ grados_separacion.py
 peliculassimilaresaws.py
 
 checkpoint
+
+ml-100k/*.genre
+
+ml-100k/*.info
+
+ml-100k/*.pl
+
+ml-100k/*.sh
+
+ml-100k/*.occupation
+
+ml-100k/*.base
+
+ml-100k/*.test
+
+ml-100k/*.user
+
+ml-100k/README
