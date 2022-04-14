@@ -1,0 +1,7 @@
+ml-100k filter=lfs diff=lfs merge=lfs -text
+anime.csv filter=lfs diff=lfs merge=lfs -text
+rating.csv filter=lfs diff=lfs merge=lfs -text
+richestpeople.csv filter=lfs diff=lfs merge=lfs -text
+marvel_graph.txt filter=lfs diff=lfs merge=lfs -text
+marvel_names.txt filter=lfs diff=lfs merge=lfs -text
+book filter=lfs diff=lfs merge=lfs -text
