@@ -22,9 +22,11 @@ flipedPelis = pelisCount.map(lambda x: (x[1], x[0]))
 
 flipedPelisWithName = flipedPelis.map(lambda x: (x[0], nameDict.value[x[1]]))
 
-results = flipedPelisWithName.collect()
+sortedPelis = flipedPelisWithName.sortByKey()
 
-sortedResults = sorted(results)
+sortedPelis.saveAsTextFile("Pelis")
 
-for result in sortedResults:
+results = sortedPelis.collect()
+
+for result in results:
     print(result[1] + "---" + str(result[0]))
